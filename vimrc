@@ -179,6 +179,7 @@ Bundle 'scrooloose/nerdtree'
 Bundle 'vim-scripts/YankRing.vim'
 Bundle 'vim-scripts/taglist.vim'
 Bundle 'sukima/xmledit'
+Bundle 'fatih/vim-go'
 " Bundle 'tpope/vim-fugitive'
 " Bundle 'Lokaltog/vim-easymotion'
 " Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
