@@ -208,3 +208,6 @@ filetype plugin indent on     " required!
 
 " taglist
 
+colorscheme morning
+
+
