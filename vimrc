@@ -211,4 +211,7 @@ filetype plugin indent on     " required!
 
 colorscheme evening
 
+map <F2> :NERDTreeToggle<CR>
+autocmd BufEnter * if (winnr("$") == 1 && exists("b:NERDTreeType") &&b:NERDTreeType == "primary") | q | endif
+autocmd BufReadPost * if line("'\"") > 0|if line("'\"") <= line("$")|exe("norm '\"")|else|exe "norm $"|endif|endif
 
