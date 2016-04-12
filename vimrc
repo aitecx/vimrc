@@ -181,6 +181,7 @@ Bundle 'vim-scripts/taglist.vim'
 Bundle 'sukima/xmledit'
 Bundle 'fatih/vim-go'
 Bundle 'plasticboy/vim-markdown'
+Bundle 'vim-scripts/pep8'
 " Bundle 'tpope/vim-fugitive'
 " Bundle 'Lokaltog/vim-easymotion'
 " Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
