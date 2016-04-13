@@ -223,3 +223,22 @@ let g:miniBufExplMapWindowNavArrows = 1
 let g:miniBufExplMapCTabSwitchBufs = 1 
 let g:miniBufExplModSelTarget = 1 
 
+map L :bl<RETURN>             
+map H :bp<RETURN>  
+
+"窗口
+map <c-h> <c-w>h
+map <c-l> <c-w>l
+map <c-j> <c-w>j
+map <c-k> <c-w>k
+
+
+"编辑
+map <c-c> "+y
+map <c-p> "+gP
+map <c-s> <ESC>:w<ESC>
+map <c-n> <ESC>:nohls<RETURN>
+
+map e <c-e>
+map t <c-y>
+
