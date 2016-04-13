@@ -223,7 +223,7 @@ let g:miniBufExplMapWindowNavArrows = 1
 let g:miniBufExplMapCTabSwitchBufs = 1 
 let g:miniBufExplModSelTarget = 1 
 
-map L :bl<RETURN>             
+map L :bn<RETURN>             
 map H :bp<RETURN>  
 
 "窗口
