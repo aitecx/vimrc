@@ -182,6 +182,7 @@ Bundle 'sukima/xmledit'
 Bundle 'fatih/vim-go'
 Bundle 'plasticboy/vim-markdown'
 Bundle 'vim-scripts/pep8'
+Bundle 'vim-scripts/minibufexpl.vim'
 " Bundle 'tpope/vim-fugitive'
 " Bundle 'Lokaltog/vim-easymotion'
 " Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
@@ -215,4 +216,10 @@ colorscheme evening
 map <F2> :NERDTreeToggle<CR>
 autocmd BufEnter * if (winnr("$") == 1 && exists("b:NERDTreeType") &&b:NERDTreeType == "primary") | q | endif
 autocmd BufReadPost * if line("'\"") > 0|if line("'\"") <= line("$")|exe("norm '\"")|else|exe "norm $"|endif|endif
+
+let g:miniBufExplSplitBelow=0
+let g:miniBufExplMapWindowNavVim = 1 
+let g:miniBufExplMapWindowNavArrows = 1 
+let g:miniBufExplMapCTabSwitchBufs = 1 
+let g:miniBufExplModSelTarget = 1 
 
