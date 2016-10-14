@@ -29,6 +29,7 @@ set directory=/tmp//           " prepend(^=) $HOME/.tmp/ to default path; use fu
 set noswapfile                 "
 
 set hidden                     " The current buffer can be put to the background without writing to disk
+set wrap
 
 set hlsearch                   " highlight search
 set ignorecase                 " be case insensitive when searching
